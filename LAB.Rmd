@@ -65,7 +65,7 @@ p+theme(legend.justification = c(0,1),
         legend.position = c(0,1),
         legend.box.margin = margin(c(1,1,1,1)),
         legend.text = element_text(size = 14,margin = margin(l=8)))+
-  scale_x_continuous(breaks = c(0,3.2),labels = c("theta_0","theta_a"))+
+  scale_x_continuous(breaks = c(0,3.2),labels = c(expression(theta[0],theta[a])))+
   scale_fill_manual(values = c("a"="blue", "b"="red"),
                     label= c("Type I error","Type II error"))+
   theme(plot.margin = unit(c(1.5,0.5,2,0.5),"cm"))
